@@ -7,7 +7,7 @@
   - substructure_smiles.pkl: A list containing the smiles of all the substructures.
   - ddi_mask_H.py: is used to get ddi_mask_H.pkl
   - processing.py: is used to process the MIMIC original dataset
-- Under MIMIC Dataset policy, we are not allowed to distribute the datasets. Practioners could go to https://physionet.org/content/mimiciii/1.4/ and requrest the access to MIMIC-III dataset and then run our processing script to get the complete preprocessed dataset file.
+  - Under MIMIC Dataset policy, we are not allowed to distribute the datasets. Practioners could go to https://physionet.org/content/mimiciii/1.4/ and requrest the access to MIMIC-III dataset and then run our processing script to get the complete preprocessed dataset file.
 
 - src/ folder contains all the source code.
   - modules/: Code for model definition.
@@ -19,10 +19,14 @@
   - Go to https://physionet.org/content/mimiciii/1.4/ to download the MIMIC-III dataset
   - go into the folder and unzip three main files (PROCEDURES_ICD.csv.gz, PRESCRIPTIONS.csv.gz, DIAGNOSES_ICD.csv.gz)
   - run processing.py to get a complete records_final.pkl
-  ''' python processing.py '''
+  '''
+  python processing.py
+  '''
 
 ## STEP2:Package Dependency
   python 3.8.5, scipy 1.10.1, pandas 1.1.3, torch 1.12.1, numpy 1.19.2, dill, rdkit 
 
 ## STEP3:Run Model
-  ''' python main.py '''
+  '''
+  python main.py 
+  '''
