@@ -21,15 +21,16 @@
   - go into the folder and unzip three main files (PROCEDURES_ICD.csv.gz, PRESCRIPTIONS.csv.gz, DIAGNOSES_ICD.csv.gz)
   - run processing.py to get a complete records_final.pkl
 
-```
-python processing.py
-```
+  ```
+  python processing.py
+  ```
 
 ## STEP2:Package Dependency
+
   python 3.8.5, scipy 1.10.1, pandas 1.1.3, torch 1.12.1, numpy 1.19.2, dill, rdkit 
 
 ## STEP3:Run Model
 
-```
-python main.py 
-```
+  ```
+  python main.py 
+  ```
